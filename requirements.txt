@@ -1,0 +1,7 @@
+pyautogui
+opencv-python
+vosk
+pyaudio
+numpy
+Pillow
+requests

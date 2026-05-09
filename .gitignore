@@ -1,0 +1,51 @@
+# virtual environment
+venv/
+env/
+.venv/
+
+# vosk model — too big for git (50MB)
+# user downloads this themselves via download_model.py
+vosk-model/
+
+# saved board calibration — specific to each user's screen
+calibration.json
+
+# temp audio file created during mic testing
+recording.wav
+
+# python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# pytest
+.pytest_cache/
+*.pytest_cache
+
+# coverage
+.coverage
+htmlcov/
+
+# environment variables (if you ever add a .env file)
+.env
+.env.local
+
+# os files
+.DS_Store           # mac
+Thumbs.db           # windows
+desktop.ini         # windows
+
+# editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# logs
+*.log
+
+# dist / build (if you ever package this)
+dist/
+build/
+*.egg-info/
